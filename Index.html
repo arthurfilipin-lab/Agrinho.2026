@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte | Agronegócio Sustentável e Tecnológico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">Agro<span>Forte</span></a>
+            
+            <button class="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav-menu" role="navigation">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato" class="btn-nav">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>O Futuro do Agronegócio é <span>Sustentável</span></h1>
+                    <p>Unimos tecnologia de ponta e respeito ao meio ambiente para maximizar a produtividade da sua lavoura com inteligência e responsabilidade.</p>
+                    <div class="hero-cta">
+                        <a href="#pilares" class="btn btn-primary">Conheça Nossas Soluções</a>
+                        <a href="#sobre" class="btn btn-secondary">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&q=80&w=600" alt="Drone sobrevoando plantação de alta tecnologia">
+                </div>
+            </div>
+        </section>
+
+        <section id="pilares" class="pilares-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nossos Pilares</h2>
+                    <p>Inovação aplicada ao campo com foco em resultados reais e preservação.</p>
+                </div>
+                
+                <div class="pilares-grid">
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                        <h3>Sustentabilidade</h3>
+                        <p>Práticas agrícolas que preservam o solo e os recursos hídricos, garantindo o futuro das próximas gerações.</p>
+                    </div>
+
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3>Tecnologia Agro</h3>
+                        <p>Monitoramento via satélite, IoT e inteligência artificial para decisões preditivas e precisas no campo.</p>
+                    </div>
+
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h3>Alta Produtividade</h3>
+                        <p>Otimização de insumos e processos para alcançar o potencial máximo de colheita por hectare.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre-section">
+            <div class="container sobre-container">
+                <div class="sobre-image">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad451?auto=format&fit=crop&q=80&w=600" alt="Agricultor analisando a plantação com tablet">
+                </div>
+                <div class="sobre-content">
+                    <h2>Liderando a Transformação Digital no Campo</h2>
+                    <p>A AgroForte nasceu do desejo de integrar o ecossistema tecnológico global às necessidades reais do produtor rural. Acreditamos que a tecnologia e a natureza não são opostas, mas sim parceiras estratégicas na segurança alimentar do planeta.</p>
+                    <p>Oferecemos consultoria especializada, softwares de gestão agrícola e soluções de automação sob medida para o seu negócio.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Fale com um Especialista</h2>
+                    <p>Pronto para dar o próximo passo rumo à eficiência? Preencha os campos abaixo.</p>
+                </div>
+
+                <div class="contato-wrapper">
+                    <form class="contato-form">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" required placeholder="Digite seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail Corporativo</label>
+                            <input type="email" id="email" required placeholder="Ex: nome@empresa.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" rows="5" required placeholder="Como podemos ajudar o seu negócio?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 AgroForte. Todos os direitos reservados. Focado em inovação e sustentabilidade.</p>
+            <div class="footer-socials">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
